@@ -135,3 +135,11 @@ a {
   font-weight: bold;
     margin: 1em;
 }
+
+#gif-cave #gif {
+  width: 100%;
+}
+
+#gif-cave #gif img {
+  max-width: 100%;
+}

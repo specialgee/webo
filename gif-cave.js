@@ -1,10 +1,27 @@
-// Positionne des éléments aléatoirement sur la page
+// Affiche un gif aléatoirement
 
-var digits = document.getElementsByClassName("digit");
+var gif = document.getElementById("gif");
+gif.innerHTML = "";
 
-var h = setInterval(function() {
-  for (var i = 0; i < digits.length; i++) {    
-    digits[i].style.top = Math.floor(Math.random() * 200 + 1) + "px";
-    digits[i].style.left = Math.floor(Math.random() * 1900 + 1) + "px";
-  }
-}, 400);
+var index = Math.floor(Math.random() * 4);
+
+function addGif(url) {
+  var img = document.createElement("img");
+img.src = url;
+gif.appendChild(img);
+}
+
+switch(index) {
+  case 0:
+    addGif("https://media.giphy.com/media/g4hKza7HfxyOk/giphy.gif");
+    break;
+  case 1:
+    addGif("https://media.giphy.com/media/g4hKza7HfxyOk/giphy.gif");
+  case 2:
+    addGif("https://media.giphy.com/media/g4hKza7HfxyOk/giphy.gif");
+  case 3:
+    addGif("https://media.giphy.com/media/g4hKza7HfxyOk/giphy.gif");
+    break;
+  default:
+    addGif("https://media.giphy.com/media/g4hKza7HfxyOk/giphy.gif");
+}
