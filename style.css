@@ -23,7 +23,7 @@ h2 {
 }
 
 a {
-  color: #00f;
+  color: #000;
   text-decoration: none;
 }
 
@@ -87,15 +87,23 @@ a {
 /* Binary World */
 
 .digits {
-     position: relative;
-    width: 100%;
-    height: 200px;
-    margin: 0;
-    padding: 0;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 .digit {
   position: absolute;
   list-style: none;
   font-size: 1.2em;
+}
+
+#binary-world #webo {
+  margin-top: 4em;
+}
+
+#binary-world #internet {
+  margin-top: 2em;
 }
