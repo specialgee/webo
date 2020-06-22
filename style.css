@@ -26,7 +26,7 @@ a
   text-decoration: none;
 }
 
-.mainSection
+.main
 {
   display: flex;
   flex-direction: column;
@@ -34,22 +34,15 @@ a
   align-items: center;
 }
 
-.defaultArticle
+.title h1 {
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+#intro
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  width: 40%;
-}
-
-#mainNav
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
+  width: 50%;
 }
 
 #webo
