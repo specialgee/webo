@@ -119,3 +119,19 @@ a {
   font-weight: bold;
     margin: 1em;
 }
+
+/* Gif Cave */
+
+#gif-cave #webo {
+  margin-top: 4em;
+}
+
+#gif-cave #internet {
+  margin-top: 2em;
+}
+
+#gif-cave #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+    margin: 1em;
+}
