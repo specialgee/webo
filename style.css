@@ -1,10 +1,9 @@
 /* Les fichiers CSS permettent de modifier le style du site web */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower')
-@import url('https://fonts.googleapis.com/css?family=Frijole');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 body {
-  font-family: "Frijole", helvetica, arial, sans-serif;
   background-color: #fff;
+  font-family: "Indie Flower", helvetica, arial, sans-serif;
   font-size: 20px;
   color: #000;
 }
@@ -51,4 +50,10 @@ a
   justify-content: center;
   align-items: center;
   font-size: 50px;
+}
+
+#webo
+{
+  max-width: 120px;
+  max-height: 120px;
 }
