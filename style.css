@@ -36,7 +36,7 @@ a
 
 #title h1 {
   margin: 0;
-  margin-top: 0.5em;
+  margin-top: 0.2em;
 }
 
 #intro
@@ -46,17 +46,19 @@ a
 }
 
 #scene {
-  width: 50%;
+  width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  margin-top: 1em;
 }
 
 #webo
 {
   max-width: 120px;
   max-height: 120px;
+  margin-top: 2em;
 }
 
 #internet {
@@ -67,16 +69,16 @@ a
 
 }
 
-#internet img
+#internet .portal
 {
   max-width: 200px;
   max-height: 200px;
-  margin-right:
+  margin-right: 1em;
 }
 
 #grass
 {
-      position: fixed;
+      position: absolute;
     bottom: 0;
     max-width: 100%;
 }
