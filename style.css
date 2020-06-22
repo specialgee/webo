@@ -32,9 +32,14 @@ a {
   align-items: center;
 }
 
-#titre h1 {
+.main #titre h1 {
   margin: 0;
   margin-top: 0.2em;
+}
+
+.main .page-text p {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #intro {
