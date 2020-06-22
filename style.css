@@ -2,24 +2,20 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000;
 }
 
 h1 {
   color: #000;
-}
-
-body {
-  background-color: #393939;
-  font-family: "Frijole", sans-serif;
-  font-size: 20px;
-  color: #7A9D96;
-  text-shadow: 4px 4px 8px #00303F;
+  text-shadow: 2px 0px 2px #00303F;
 }
 
 a
 {
-  color: #7A9D96;
+  color: #00f;
+  text-decoration: none;
 }
 
 .mainSection
@@ -45,7 +41,5 @@ a
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Freckle Face";
   font-size: 50px;
-  color: #FF5A09;
 }
