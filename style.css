@@ -1,4 +1,4 @@
-/* CSS files add styling rules to your content */
+/* Les fichiers CSS permettent de modifier le style du site web */
 
 body {
   font-family: helvetica, arial, sans-serif;
@@ -6,6 +6,46 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: #000;
+}
+
+body {
+  background-color: #393939;
+  font-family: "Frijole", sans-serif;
+  font-size: 20px;
+  color: #7A9D96;
+  text-shadow: 4px 4px 8px #00303F;
+}
+
+a
+{
+  color: #7A9D96;
+}
+
+.mainSection
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.defaultArticle
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+}
+
+#mainNav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Freckle Face";
+  font-size: 50px;
+  color: #FF5A09;
 }
