@@ -1,7 +1,9 @@
 /* Les fichiers CSS permettent de modifier le style du site web */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower')
+@import url('https://fonts.googleapis.com/css?family=Frijole');
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Frijole", helvetica, arial, sans-serif;
   background-color: #fff;
   font-size: 20px;
   color: #000;
