@@ -48,20 +48,28 @@ a
 #scene {
   width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+  margin-top: 2em;
 }
 
 #webo
 {
   max-width: 120px;
   max-height: 120px;
-  margin-top: 1em;
+  margin-left: 3em;
 }
 
 #internet
 {
   max-width: 200px;
   max-height: 200px;
+}
+
+#grass
+{
+      position: fixed;
+    bottom: 0;
+    max-width: 100%;
 }
