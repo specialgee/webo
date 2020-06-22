@@ -39,14 +39,8 @@ a {
   margin-top: 0.2em;
 }
 
-.main .page-text p {
+.main p {
   font-size: 1.2em;
-  font-weight: bold;
-}
-
-#intro {
-  text-align: center;
-  width: 50%;
 }
 
 #scene {
@@ -71,10 +65,21 @@ a {
   align-items: center;
 }
 
-#internet .portal {
-  max-width: 200px;
-  max-height: 200px;
-  margin-right: 2em;
+/* Home */
+
+#intro {
+  text-align: center;
+  width: 50%;
+}
+
+#home #webo {
+  margin-top: 2em;
+}
+
+#home #internet .portal {
+  max-width: 300px;
+  max-height: 300px;
+  margin-right: 3em;
   animation: rotation 6s linear infinite;
 }
 
@@ -106,4 +111,10 @@ a {
 
 #binary-world #internet {
   margin-top: 2em;
+}
+
+#binary-world #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+    margin: 1em;
 }
