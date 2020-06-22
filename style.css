@@ -68,10 +68,10 @@ a {
   max-width: 200px;
   max-height: 200px;
   margin-right: 2em;
-  animation: rotate 6s linear infinite;
+  animation: rotation 6s linear infinite;
 }
 
-@keyframes rotate {
+@keyframes rotation {
   100% {
     transform: rotate(360deg);
   }
