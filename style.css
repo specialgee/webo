@@ -1,6 +1,7 @@
 /* Les fichiers CSS permettent de modifier le style du site web */
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
+// Base
 body {
   background-color: #fff;
   font-family: "Indie Flower", helvetica, arial, sans-serif;
