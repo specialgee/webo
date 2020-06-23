@@ -182,3 +182,20 @@ a {
   font-weight: bold;
   margin: 1em;
 }
+
+/* Youtube */
+
+#youtube #video {
+  width: 100%;
+  text-align: center;
+}
+
+#youtube #webo {
+  margin-top: 2em;
+}
+
+#youtube #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em;
+}
