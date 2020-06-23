@@ -140,3 +140,24 @@ a {
   font-weight: bold;
   margin: 1em;
 }
+
+/* Wikipedia */
+
+#wikipedia #gif {
+  width: 100%;
+  text-align: center;
+}
+
+#wikipedia #gif img {
+  max-width: 350px;
+}
+
+#wikipedia #webo {
+  margin-top: 2em;
+}
+
+#wikipedia #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em;
+}

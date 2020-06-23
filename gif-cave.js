@@ -9,7 +9,7 @@ function addGif(url) {
   gif.appendChild(img);
 }
 
-var totalGif = 5;
+var totalGif = 6;
 var index = Math.floor(Math.random() * totalGif) + 1;
 console.log("GIF: ", index);
 
@@ -30,6 +30,9 @@ switch (index) {
     break;
   case 5:
     addGif("https://media.giphy.com/media/H8FP5CniGPbB4zFnRR/giphy.gif");
+    break;
+  case 6:
+    addGif("https://media.giphy.com/media/dUC6HYIJMw6IA2cECV/giphy.gif");
     break;
 
   default:
