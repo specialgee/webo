@@ -117,29 +117,26 @@ a {
 #binary-world #internet a {
   font-size: 1.2em;
   font-weight: bold;
-    margin: 1em;
+  margin: 1em;
 }
 
 /* Gif Cave */
 
-#gif-cave #webo {
-  margin-top: 4em;
+#gif-cave #gif {
+  width: 100%;
+  text-align: center;
 }
 
-#gif-cave #internet {
+#gif-cave #gif img {
+  max-width: 400px;
+}
+
+#gif-cave #webo {
   margin-top: 2em;
 }
 
 #gif-cave #internet a {
   font-size: 1.2em;
   font-weight: bold;
-    margin: 1em;
-}
-
-#gif-cave #gif {
-  width: 100%;
-}
-
-#gif-cave #gif img {
-  max-width: 100%;
+  margin: 1em;
 }
