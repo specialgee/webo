@@ -162,6 +162,48 @@ a {
   margin: 1em;
 }
 
+/* Youtube */
+
+#youtube #video {
+  width: 100%;
+  text-align: center;
+}
+
+#youtube #webo {
+  margin-top: 2em;
+}
+
+#youtube #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em;
+}
+
+/* Google */
+
+#google .page-text p {
+  line-height: 1em;
+}
+
+#google #gif {
+  width: 100%;
+  text-align: center;
+}
+
+#google #gif img {
+  max-width: 300px;
+}
+
+#google #webo {
+  margin-top: 2em;
+}
+
+#google #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em;
+}
+
 /* Cookie Monster */
 
 #cookie-monster #gif {
@@ -183,18 +225,22 @@ a {
   margin: 1em;
 }
 
-/* Youtube */
+/* Error 404 */
 
-#youtube #video {
+#error-404 #gif {
   width: 100%;
   text-align: center;
 }
 
-#youtube #webo {
+#error-404 #gif img {
+  max-width: 350px;
+}
+
+#error-404 #webo {
   margin-top: 2em;
 }
 
-#youtube #internet a {
+#error-404 #internet a {
   font-size: 1.2em;
   font-weight: bold;
   margin: 1em;
