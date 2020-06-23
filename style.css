@@ -245,3 +245,28 @@ a {
   font-weight: bold;
   margin: 1em;
 }
+
+/* Spam */
+
+#spam .page-text p {
+  line-height: 1em;
+}
+
+#spam #gif {
+  width: 100%;
+  text-align: center;
+}
+
+#spam #gif img {
+  max-width: 350px;
+}
+
+#spam #webo {
+  margin-top: 2em;
+}
+
+#spam #internet a {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em;
+}
